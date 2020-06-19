@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sp02-itemservice" />
+        <module name="sp08-hystrix-dashboard" />
+        <module name="sp05-eureka" />
+        <module name="sp03-userservie" />
+        <module name="sp01-commons" />
+        <module name="sp04-orderservice" />
+        <module name="sp09-fegin" />
+        <module name="sp11-zuul" />
+        <module name="sp10-turbine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sp09-fegin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sp02-itemservice" options="-parameters" />
+      <module name="sp03-userservie" options="-parameters" />
+      <module name="sp04-orderservice" options="-parameters" />
+      <module name="sp05-eureka" options="-parameters" />
+      <module name="sp08-hystrix-dashboard" options="-parameters" />
+      <module name="sp09-fegin" options="-parameters" />
+      <module name="sp10-turbine" options="-parameters" />
+      <module name="sp11-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

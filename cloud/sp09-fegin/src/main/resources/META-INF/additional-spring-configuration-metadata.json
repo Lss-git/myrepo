@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "ribbon.ConnectTimeout.ReadTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.ConnectTimeout.ReadTimeout."
+    },
+    {
+      "name": "ribbon.ConnectTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.ConnectTimeout."
+    },
+    {
+      "name": "hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds",
+      "type": "java.lang.String",
+      "description": "Description for hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds."
+    }
+  ] }
